@@ -17,6 +17,10 @@ h2, h1  {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
+
+h2 {
+    margin: 2em 0 0.85em 0;
+}
 .centered {
   text-align: center;
 }
@@ -65,7 +69,7 @@ section.managingIndd {
   background-position: center;
 }
 figure {
-    margin: 0 auto;
+    margin: 1em auto;
     padding: 0;
     width: 80%;
 }
@@ -73,4 +77,16 @@ figure {
 figure img {
   box-shadow: 1px 2px 10px #ccc;
   max-width: 100%;
+}
+
+.container {
+padding-top: 2em;
+}
+
+section.book {
+  background: url(../img/indb.png) #AA7BC9 no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  background-position: center;
+
 }
