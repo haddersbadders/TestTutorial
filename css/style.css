@@ -90,3 +90,11 @@ section.book {
   background-position: center;
 
 }
+
+section.working {
+  background: #E56156;
+}
+
+section.finally {
+  background: #D1DD75;
+}
